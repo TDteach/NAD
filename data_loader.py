@@ -261,7 +261,6 @@ class DatasetBD(Dataset):
         time.sleep(0.01)
         print("Injecting Over: " + str(cnt) + "Bad Imgs, " + str(len(dataset) - cnt) + "Clean Imgs")
 
-
         return dataset_
 
 
